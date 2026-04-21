@@ -1,0 +1,9 @@
+replicaCount: 2
+
+image:
+  repository: your-docker-username/ci-cd-demo
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
